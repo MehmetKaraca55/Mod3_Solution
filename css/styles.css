@@ -1,0 +1,308 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #FFFFF0;
+  font-family: sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #808000;
+  border-radius: 0;
+  border: 0;
+  margin-top: 0px;
+  padding-top: 0px;
+   border: 2px solid #61122f;
+}
+
+.navbar-header {
+  margin-top: 10px;
+  margin-bottom: -50px;
+  padding-left: 5px;
+  padding-right: -10px;
+  width: 105%;
+
+
+}
+
+.container {
+  width: 100%;
+  padding-top: 0px;
+  margin-top: -40px;
+}
+
+  #buton {
+    width: 50px;
+    padding: 10px 10px 10px 5px; 
+  }
+ 
+.navbar-brand {
+  padding-top: 20px;
+  padding-bottom: -30px;
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+
+.navbar-brand h1 { 
+  font-family: sans-serif;
+  color: #000000;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  line-height: .75;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #61122f;
+  width: 120%;
+}
+
+
+.navbar-header button.navbar-toggle {
+ 
+  clear: both;
+  margin-top: 30px;
+  width: 120%;
+}
+
+/** BODY **/
+
+.our-menu {
+  font-family: sans-serif;
+  color: #000000;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  line-height: .75;
+  padding-bottom: 20px;
+}
+
+.product {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  background-color: #EEE8AA;
+  margin-right: 40px;
+  margin-left: -10px;
+}
+
+.chicken {
+  text-align: left;
+  padding: 10px 10px;
+  background-color: #FFDAB9;
+  margin-top: 10px;
+}
+
+#nav-list {
+  text-align: center;
+  font-weight: bold;
+ 
+  padding-bottom: 20px;
+  padding-top: -30px;
+
+}
+#collapsable-nav {
+padding-bottom: 0px;
+}
+
+hr{
+  width: 98%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: black !important;
+  height: -10px;
+
+}
+
+li.visible-xs {
+  color: #000000 !important;
+  background-color: #DEB887;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.row{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#chicken, #beef, #sushi {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #BC8F8F;
+
+}
+
+#chicken-text, #beef-text, #sushi-text {
+  background-color: #B8860B !important;
+  padding: 10px 10px;
+}
+
+a[href="#top"] {
+  text-decoration: underline; /* Altı çizili */
+  color: blue; /* Normalde siyah */
+
+}
+
+a[href="#top"]:active {
+  color: red; /* Basıldığında kırmızı */
+}
+
+a[href="#top"]:hover {
+  color: blue; /* Üzerine gelince mavi */
+}
+ div #chicken-text + div {
+  background-color: #B8860B !important;
+ }
+
+div #beef-text + div {
+  background-color: #B8860B !important;
+ }
+
+ div #sushi-text + div {
+  background-color: #B8860B !important;
+ }
+
+a[href="#"] {
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 1200px) {
+  /* Header */
+  
+    .container {
+     margin-left: 25px;
+     margin-bottom: 10px;
+     padding-top: 35px;
+     padding-bottom: 35px;
+
+    }
+    
+    
+    .navbar-brand {
+    padding-top: 10px;
+    height: 100px;
+    padding-left: 40px;
+    }
+
+    .navbar {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 40px;
+  }
+  
+   }
+  
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 1199px) {
+  
+ .container {
+     margin-left: 25px;
+     margin-bottom: 10px;
+     padding-top: 35px;
+     padding-bottom: 35px;
+    }
+
+    .navbar-header {
+      padding-left: 15px;
+      margin-right: 5px;
+      width: 100%;
+    }
+
+    .navbar-brand {
+    padding-top: 10px;
+    height: 100px;
+    padding-left: 30px;
+    }
+
+  .navbar {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 40px;
+  }
+
+div #chicken-text + div {
+  margin-bottom: 30px;
+}
+
+div #beef-text + div {
+  margin-bottom: 30px;
+}
+
+div #sushi-text + div {
+  margin-bottom: 20px;
+}
+
+
+
+
+  
+
+ 
+
+
+  }
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+   
+
+   .header-nav + div {
+     margin-left: 25px;
+   }
+    
+    .navbar-header {
+      padding-top: 30px;
+      padding-bottom: 20px;
+      padding-left: 55px;
+    }
+    
+    .navbar-brand {
+    padding-top: 15px;
+    height: 100px;
+    padding-left: 15px;
+    }
+
+    .navbar {
+    padding-bottom: 25px;
+    margin-bottom: 75px;
+  }
+
+  .product {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 1.2em;
+
+  }
+
+  #beef, #sushi {
+    margin-top: 30px;
+  }
+
+
+div #sushi-text + div {
+  margin-bottom: 30px;
+}
+
+  
+  }
+
+
+
+
